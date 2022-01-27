@@ -1,14 +1,14 @@
 import React from 'react'
 
-function Nav () {
+function Students () {
   return (
     <div>
-      <h2>Nav</h2>
+      <h2>Students</h2>
       <ul>
-        <li>Build your continent list here</li>
+        <li>Add the list of students here</li>
       </ul>
     </div>
   )
 }
 
-export default Nav
+export default Students
