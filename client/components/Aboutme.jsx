@@ -8,6 +8,7 @@ function Aboutme () {
     findStudent.name === name
 
   )
+  console.log(eachStudent)
   return (
     <div>
       <h2>About Me</h2>

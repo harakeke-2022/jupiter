@@ -6,17 +6,14 @@ function Students () {
   return (
     <div>
       <h2>Students</h2>
-      <ul>
-        {students.map((student) => {
-          return (
-            <li key ={student.favFood}>
-              <Link to={`Aboutme/${student.name}`}>{ <img src={`/images/${student.image}`}></img>}
-            
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
+      {students.map((student) => {
+        return (
+          <p key ={student.favFood}>
+            <Link to={`Aboutme/${student.name}`}>{ <img src={`/images/${student.image}`} controlsList ="nodownload"></img>}
+            </Link>
+          </p>
+        )
+      })}
     </div>
   )
 }

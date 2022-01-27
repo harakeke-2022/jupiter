@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-// import Aboutme from './Aboutme'
 import Students from './Students'
 import Aboutme from './Aboutme'
 
