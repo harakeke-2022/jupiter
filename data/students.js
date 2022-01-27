@@ -38,5 +38,6 @@ export default [
     truth: ['I can play the drums.',
       'I love drinking tea.'],
     lie: 'Ive run a marathon this year'
+
   }
 ]
