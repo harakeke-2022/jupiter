@@ -11,6 +11,7 @@ function Students () {
           return (
             <li key ={student.favFood}>
               <Link to={`Aboutme/${student.name}`}>{ <img src={`/images/${student.image}`}></img>}
+            
               </Link>
             </li>
           )

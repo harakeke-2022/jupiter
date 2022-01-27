@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lato&family=Mochiy+Pop+P+One&display=swap');
+
 body {
-  background-color: #faf8f1;
+  background-color: bisque;
   color: #0a1520;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mochiy Pop P One'
 }
 
-.main, .title {
+.title {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.title img {
-  height: 5rem;
-  width: 5rem;
-  padding-right: 30px;
+.main {
+  display: flex;
+  flex-direction: column; 
+  align-items: left;
+  justify-content: flex-start
 }
 
 .main div {
@@ -24,5 +29,8 @@ a {
 }
 
 img {
-  max-height: 200px;
+  max-height: 150px;
+   margin-top: 5px;
+   margin-left: 5px;
+   padding: 5px;
 }
