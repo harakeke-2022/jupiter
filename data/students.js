@@ -27,4 +27,4 @@ export default [
     starSign: 'Aries',
     favFood: 'fries'
   }
-  ]
+]
