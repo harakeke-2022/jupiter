@@ -1,7 +1,11 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 
 // import Aboutme from './Aboutme'
 import Students from './Students'
+import Aboutme from './Aboutme'
+
+
 
 function App () {
   return (
@@ -13,9 +17,9 @@ function App () {
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
         <Students />
-        <Routes> */}
-          {/* <Route path='/Aboutme/:name' element={ <Aboutme/> } /> */}
-        {/* </Routes>
+        <Routes> 
+          <Route path='/Aboutme/:name' element={ <Aboutme /> } />
+        </Routes> 
       </div>
     </>
   )
