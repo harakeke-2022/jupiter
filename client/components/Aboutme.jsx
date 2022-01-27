@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Home () {
+function Aboutme () {
   return (
     <div>
-      <h2>Home</h2>
-      <p>Please select a continent from the nav list</p>
+      <h2>About Me</h2>
+      <p>Insert info of each student here. In list form maybe?</p>
     </div>
   )
 }
 
-export default Home
+export default Aboutme
