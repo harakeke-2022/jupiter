@@ -3,7 +3,7 @@ import React from 'react'
 function Lie () {
   return (
     <div>
-        <p>Add lie gif or image here</p>
+        <img src='/images/lie-gif.gif' alt='lie-gif'/>
     </div>
   )
 }
