@@ -6,8 +6,8 @@ export default [
     starSign: 'Capricorn',
     favFood: 'lasagne',
     truth: ['I can juggle',
-    'I get claustrophobia easily'],
-    lie: 'I love the LA Lakers',
+      'I get claustrophobia easily'],
+    lie: 'I love the LA Lakers'
   },
   {
     image: 'joanne-lai.jpg',
@@ -15,8 +15,8 @@ export default [
     cohort: 'Harakeke 22',
     starSign: 'Taurus',
     favFood: 'sushi',
-    truth: ['I love playing tennis', 
-    'I have one sister'],
+    truth: ['I love playing tennis',
+      'I have one sister'],
     lie: 'I have swam with sharks'
   },
   {
@@ -26,7 +26,7 @@ export default [
     starSign: 'Sagittarius',
     favFood: 'pizza',
     truth: ['I talk to myself all the time while driving',
-    'I want to be one of the best hacker in the world'],
+      'I want to be one of the best hacker in the world'],
     lie: 'I won a national mushroom soup cooking competition'
   },
   {
@@ -36,7 +36,7 @@ export default [
     starSign: 'Aries',
     favFood: 'fries',
     truth: ['I can play the drums.',
-    'I love drinking tea.'],
+      'I love drinking tea.'],
     lie: 'Ive run a marathon this year'
   }
-  ]
+]
