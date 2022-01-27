@@ -5,15 +5,14 @@ import { Link } from 'react-router-dom'
 function Students () {
   return (
     <div>
-      <h2>Nav</h2>
+      <h2>Students</h2>
       <ul>
         {students.map((student) => {
           return (
-            <li>
-              <Link to={`Aboutme/${student}`}>
-                hi
+            <>
+              <Link to={`Aboutme/${student.name}`}>{ <img src={`/images/${student.image}`}></img>}
               </Link>
-            </li>
+            </>
           )
         })}
       </ul>

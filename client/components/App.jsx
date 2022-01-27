@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Aboutme from './Aboutme'
+// import Aboutme from './Aboutme'
 import Students from './Students'
 
 function App () {
@@ -12,12 +12,13 @@ function App () {
       </div>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
-        <Nav />
-        <Routes>
-          <Route path='/' element={<Students />} />
-          <Route path='/Aboutme/:name' element={ <Aboutme/> } />
-        </Routes>
+        <Students />
+        <Routes> */}
+          {/* <Route path='/Aboutme/:name' element={ <Aboutme/> } /> */}
+        {/* </Routes>
       </div>
     </>
   )
 }
+
+export default App
