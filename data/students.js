@@ -20,8 +20,8 @@ export default [
     lie: 'I have swam with sharks'
   },
   {
-    image: 'kate-hann.jpg',
-    name: 'Kate Hann',
+    image: 'kate-han.jpg',
+    name: 'Kate Han',
     cohort: 'Harakeke 22',
     starSign: 'Sagittarius',
     favFood: 'pizza',
