@@ -9,7 +9,7 @@ function Students () {
       {students.map((student) => {
         return (
           <p key ={student.favFood}>
-            <Link to={`Aboutme/${student.name}`}>{ <img src={`/images/${student.image}`} controlsList ="nodownload"></img>}
+            <Link to={`aboutme/${student.name}`}>{ <img src={`/images/${student.image}`} controlsList ="nodownload"></img>}
             </Link>
           </p>
         )
